@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Dolar,Euro,Altın,Petrol,Bono,Bist 100",
+  "version": "1",
+  "description": "Türk lirasının diğer para birimlerindeki(alış,satış) karşılığını panel üzerinde gösterir.",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+    "background": {
+      "scripts" : [
+        "background.js"
+      ]
+    },
+    "browser_action" : {
+      "default_icon":"icon_128.png",
+      "default_title": "my first extension",
+      "default_popup":"popup.html"
+    },
+    "permissions": [
+      "http://www.tcmb.gov.tr/kurlar/today.xml",
+      "contextMenus"
+    ]
+  }
