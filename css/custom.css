@@ -1,7 +1,7 @@
 /**
  * Chrome Extension Twitter Bootstrap 3 Template
  * Custom CSS
- *	
+ *
  */
 
 body, section {			/* Change width and height to own preferences */
@@ -18,3 +18,36 @@ section { padding: 5px;}
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: red; }
+
+/* sortable */
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+	width: auto;
+  z-index: 2000;
+}
+
+tr.example td.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+tr.example td.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+.simple_with_animation td{
+	cursor: pointer;
+	background: #F9FBE7;
+}
+.simple_with_animation td img{
+	width: 13px;
+	height: 14px;
+	padding: 0px 0px 1px 0px;
+}
+.radio{
+	padding: 0px;
+	margin: 0px 0px 0px 5px;
+}
