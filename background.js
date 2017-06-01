@@ -11,4 +11,3 @@ var xhr = new XMLHttpRequest();
     var xmlDoc;
     xhr.open("GET",'http://www.tcmb.gov.tr/kurlar/today.xml', true);
     xhr.send();
-    
