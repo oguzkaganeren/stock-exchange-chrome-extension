@@ -1,3 +1,8 @@
+:exclamation: This repo has been archived. Our code is now hosted at
+
+https://gitlab.com/oguzkaganeren/stock-exchange-chrome-extension
+
+See you there!
 # stock-exchange-chrome-extension
 It's my first chrome extension. It shows you Turk stock exchange.
 # Additional Improvements to the Project
